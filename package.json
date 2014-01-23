@@ -2,22 +2,22 @@
   "name": "grunt-protractor-runner",
   "description": "A Grunt plugin for running protractor runner.",
   "version": "0.2.1",
-  "homepage": "https://github.com/teerapap/grunt-protractor-runner",
+  "homepage": "https://github.com/menssen/grunt-protractor-runner",
   "author": {
     "name": "Teerapap Changwichukarn",
     "email": "teerapap.c@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/teerapap/grunt-protractor-runner.git"
+    "url": "git://github.com/menssen/grunt-protractor-runner.git"
   },
   "bugs": {
-    "url": "https://github.com/teerapap/grunt-protractor-runner/issues"
+    "url": "https://github.com/menssen/grunt-protractor-runner/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/teerapap/grunt-protractor-runner/blob/master/LICENSE-MIT"
+      "url": "https://github.com/menssen/grunt-protractor-runner/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "protractor": ">=0.14.0-0 <1.0.0",
+    "protractor": "canary",
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
